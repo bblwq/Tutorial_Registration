@@ -1,5 +1,5 @@
 # Tutorial_Registration
-An example of establishing connection to a MYSQL server on a PHP website.
+An example of establishing connection to a MYSQL server from a PHP website.
 
 ## List of Tables
 * allocation
