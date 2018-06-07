@@ -24,9 +24,9 @@
 
   // Specify the database access details.
   $db_hostname = 'localhost';
-  $db_database = 'bblwq';
-  $db_username = 'pi';
-  $db_password = 'Pa$$w0rd';
+  $db_database = '######';
+  $db_username = '######';
+  $db_password = '######';
 
   // Open a connection to the MySQL Server.
   $con = mysqli_connect($db_hostname, $db_username, $db_password, $db_database);
