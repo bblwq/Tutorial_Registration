@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `bblwq`
+-- Database: `tutorial`
 --
 
 -- --------------------------------------------------------
@@ -30,7 +30,7 @@ CREATE TABLE `allocation` (
   `emailAddress` varchar(50) NOT NULL,
   `name` varchar(50) DEFAULT NULL,
   `sessionID` int(11) DEFAULT NULL,
-  `question` int(200) DEFAULT NULL
+  `question` varchar(200) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
