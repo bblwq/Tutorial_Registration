@@ -15,10 +15,10 @@
   $_SESSION['email'] = $_REQUEST['emailAddress'];
 
   // Specify the database access details.
-  $db_hostname = 'localhost';
-  $db_database = '######';
-  $db_username = '######';
-  $db_password = '######';
+  $db_hostname = "localhost";
+  $db_database = "######";
+  $db_username = "######";
+  $db_password = "######";
 
   // Open a connection to the MySQL Server.
   $con = mysqli_connect($db_hostname, $db_username, $db_password, $db_database);
@@ -44,7 +44,7 @@
   // There is one or more remaining places on tutorial sessions.
   else {
     echo<<<DayFormStart
-    <form name='DayForm' method='post' action='/tutorials.php'>
+    <form name='DayForm' method='post' action='index.php'>
 	Day: <select name='day' onChange='document.DayForm.submit()'>
 	        <option value='none'>Select a day</option>
 DayFormStart;
@@ -71,7 +71,7 @@ DayFormEnd;
 
     echo<<<TimeFormStart
 	<form name="ExtraForm" method="post"
-          action="/tutorials.php">
+          action="index.php">
     Time: <select name="time">
           <option value=0>Select a time</option>
 TimeFormStart;
